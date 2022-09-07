@@ -3,7 +3,7 @@
 require 'connection.php';
 
 //récupération des données table article pour front
-$stmt = $conn->prepare("SELECT article_id, title, content, auteurs, date FROM articles ORDER BY article_id ASC ");
+$stmt = $conn->prepare("SELECT article_id, title, content, pseudo, date FROM articles ORDER BY article_id ASC ");
 $stmt->execute();
 $articles = $stmt->fetchAll();
 
