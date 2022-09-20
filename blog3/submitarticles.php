@@ -1,12 +1,12 @@
 <?php
 $title = $_POST ['title'];
 $content = $_POST ['content'];
-$auteurs = $_POST ['auteurs'];
+$pseudo= $_POST ['pseudo'];
 require ('connection.php');
 
 
 
-$sql = "INSERT INTO articles (title, content, auteurs) VALUES ( '$title', '$content', '$auteurs')";
+$sql = "INSERT INTO articles (title, content, pseudo) VALUES ( '$title', '$content', '$pseudo')";
 $conn->exec($sql);
 
 echo 'article ajouté';

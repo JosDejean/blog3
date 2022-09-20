@@ -29,7 +29,7 @@ $articles = $stmt->fetchAll();
 
                 <p>  <?php echo $article['content']; ?> </p>
                 <a href="article.php?articleid=<?php echo $article['article_id']; ?>"> lire la suite </a>
-                <strong><?php echo $article['auteurs']; ?></strong>
+                <strong><?php echo $article['pseudo']; ?></strong>
                 <?php echo date("d-m-Y", strtotime($article['date']));?>
 
 

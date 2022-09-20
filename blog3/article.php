@@ -18,8 +18,8 @@ include 'header.php';
                 <input class="form-control" type="text" id="content" name="content"> <br>
 
 
-                <label class="form-label" for="auteurs">votre nom</label>
-                <input class="form-control" type="text" id="auteur" name="auteurs"> <br>
+                <label class="form-label" for="pseudo">votre nom</label>
+                <input class="form-control" type="text" id="pseudo" name="pseudo"> <br>
                 <div class="text-center">
                     <button class="btn btn-success align-self-center" type="submit" name="submit">submit article
                     </button>

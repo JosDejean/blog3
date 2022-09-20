@@ -15,6 +15,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="inscription.php">Inscription</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">login</a>
+                </li>
             </ul>
         </div>
     </div>
